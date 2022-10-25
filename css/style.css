@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.banner-section{
+background-image: url(../image/remove-messi.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: -38px;
+}
+.text-banner{
+    padding-top: 140px;
+    padding-bottom: 79px;
+}
+.font-text{
+    color: #FF5E19;
+    font-size: 76px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    font-family: 'Berkshire Swash', cursive;
+}
+.multiplayer:hover{
+background-color: rgb(158, 168, 168);
+border: 1px solid whitesmoke;
+transition: ease-in 1s;
+}
+.main-section{
+    background-color: black;
+}
+.common-design:hover{
+    background-color:whitesmoke !important;
+    opacity: .5;
+    transform: scale(1.2,1.1);
+    transition: ease-in 1s;
+}
